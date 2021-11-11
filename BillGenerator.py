@@ -9,9 +9,9 @@ unit=int(input("enter the no of units"))
 if unit <= 50:
     bill =.50*unit
 elif unit <=150:
-    bill =.75*unit
+    bill =(.50*50)+((unit-50)*.75
 elif unit <=250:
-    bill =1.2*unit
+    bill =(.50*50)+(.75*100)+(unit-150)*1.20
 else:
     bill = 1.5*unit
 
